@@ -79,12 +79,13 @@ background-color: #009E60;
 
 
 
-div{
+/*div{
   font-family: 'SanFranciscoText-Light';
-}
+}*/
 
 .nav-links a {
   font-family: 'SanFranciscoText-Light';
   font-size: 24px;
   text-decoration: none;
 }
+

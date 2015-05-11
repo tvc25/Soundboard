@@ -5,7 +5,7 @@ soundManager.setup({
 
    $("#nine").on("click", function(){
  var mySound = soundManager.createSound({
- url: 'audiofiles/ok.mp3'
+ url: 'audiofiles/blueberry.mp3'
  });
  mySound.play();
 
@@ -14,14 +14,14 @@ soundManager.setup({
  ontimeout: function() {
  }
 });
-// TWO //
+// ONE //
 soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
    $("#one").on("click", function(){
  var mySound = soundManager.createSound({
- url: 'audiofiles/ok.mp3'
+ url: 'audiofiles/blueberry.mp3'
  });
  mySound.play();
 
@@ -83,7 +83,7 @@ soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
-   $("#one").on("click", function(){
+   $("#five").on("click", function(){
  var mySound = soundManager.createSound({
  url: 'audiofiles/ok.mp3'
  });
@@ -99,7 +99,7 @@ soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
-   $("#one").on("click", function(){
+   $("#six").on("click", function(){
  var mySound = soundManager.createSound({
  url: 'audiofiles/ok.mp3'
  });
@@ -115,7 +115,7 @@ soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
-   $("#one").on("click", function(){
+   $("#seven").on("click", function(){
  var mySound = soundManager.createSound({
  url: 'audiofiles/ok.mp3'
  });
@@ -132,7 +132,7 @@ soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
-   $("#one").on("click", function(){
+   $("#eight").on("click", function(){
  var mySound = soundManager.createSound({
  url: 'audiofiles/ok.mp3'
  });
@@ -149,7 +149,7 @@ soundManager.setup({
  url: '/path/to/swf-files/',
  onready: function() {
 
-   $("#one").on("click", function(){
+   $("#nine").on("click", function(){
  var mySound = soundManager.createSound({
  url: 'audiofiles/ok.mp3'
  });
